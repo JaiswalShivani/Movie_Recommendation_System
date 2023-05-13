@@ -1,24 +1,24 @@
-from flask import Flask,render_template, request
+import flask
 import movie as m
 
 
 
-app = Flask(__name__)
+app = flask.Flask(__name__)
 
 
 
 @app.route("/")
 def movie():
-    return render_template("index.html")
+    return flask.render_template("index.html")
 
 @app.route("/sub",methods =["GET",'POST'])
 def submit():
     # HTML -> .py
-    if request.method == "POST":
+    if flask.request.method == "POST":
         user_movie_name = request.form["moviename"]
         recom_name = m.movie_recommend(user_movie_name)
         movies = recom_name
-        return render_template("sub.html",movies_recomm = movies)
+        return flask.render_template("sub.html",movies_recomm = movies)
         
 
 
