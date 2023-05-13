@@ -30,6 +30,12 @@ Flow of project -
 
 6. If you are using streamlit run command - streamlit run app_streamlit.py.
 
+![m](https://github.com/JaiswalShivani/Movie_Recommendation_System/assets/109452829/f8747b12-792e-4b9c-9bc7-6dcf73a31b3c)
+![j](https://github.com/JaiswalShivani/Movie_Recommendation_System/assets/109452829/0bbaa875-f17c-4f44-8747-e8583fa400e5)
+![k](https://github.com/JaiswalShivani/Movie_Recommendation_System/assets/109452829/58bc2c21-eca4-41ec-b41e-7342f59e72fa)
+
+7. Using pyhtonanywhere or streamlit you can host your model(website) free of cost. 
+
 
 
 
