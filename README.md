@@ -16,7 +16,7 @@ Files Description -
 
 Flow of project -
 1. Install all dependecies mentioned in requirments.txt file.
-2. Here you have to option to deploy movie recommendation system -
+2. Here you have two option to deploy movie recommendation system -
     1. Using Flask
     2. Using Streamlit
 3. IF you are using flask then make a folder named as templates and cut paste index.html and sub.html into it so that our flask render_template can work properly.
